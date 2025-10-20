@@ -1,0 +1,92 @@
+[
+  {
+    "question": "A subclass providing its own implementation of a method from its superclass is called what?",
+    "type": "text",
+    "answer": "Method Overriding",
+    "hint": "The subclass method 'rides over' the parent's method."
+  },
+  {
+    "question": "The relationship modeled by inheritance is best described as what?",
+    "type": "mcq",
+    "options": {
+      "A": "A 'has-a' relationship",
+      "B": "An 'is-a' relationship",
+      "C": "A 'uses-a' relationship",
+      "D": "A 'creates-a' relationship"
+    },
+    "answer": "B",
+    "hint": "Think about the sentence: 'A Car ______ Vehicle'."
+  },
+  {
+    "question": "What keyword is used in a subclass constructor to call the constructor of its superclass?",
+    "type": "text",
+    "answer": "super()",
+    "hint": "It's related to the term for a parent class and must be the first line in the constructor."
+  },
+  {
+    "question": "Which access modifier allows access within the same package and also to subclasses in different packages?",
+    "type": "mcq",
+    "options": {
+      "A": "public",
+      "B": "private",
+      "C": "protected",
+      "D": "default"
+    },
+    "answer": "C",
+    "hint": "This modifier is designed to 'protect' members for the purpose of inheritance."
+  },
+  {
+    "question": "A method that is declared without an implementation (no body) is called what?",
+    "type": "text",
+    "answer": "abstract method",
+    "hint": "Its implementation is missing, or 'abstracted away'."
+  },
+  {
+    "question": "What is the primary difference between an abstract class and an interface?",
+    "type": "mcq",
+    "options": {
+      "A": "An abstract class can have instance variables, an interface cannot",
+      "B": "An interface can have constructors, an abstract class cannot",
+      "C": "A class can implement multiple abstract classes",
+      "D": "Interfaces use the 'extends' keyword for implementation"
+    },
+    "answer": "A",
+    "hint": "Think about what a class is allowed to contain in terms of member variables."
+  },
+  {
+    "question": "Creating two methods in the same class with the same name but different parameters is an example of what?",
+    "type": "text",
+    "answer": "Method Overloading",
+    "hint": "This technique 'loads' a single method name with multiple functionalities."
+  },
+  {
+    "question": "What does the `@Override` annotation primarily do?",
+    "type": "mcq",
+    "options": {
+      "A": "Makes the method run faster",
+      "B": "Makes the method public",
+      "C": "Checks for a valid superclass method",
+      "D": "Duplicates the method"
+    },
+    "answer": "C",
+    "hint": "It's a way of telling the compiler, 'I'm intentionally replacing a parent method'."
+  },
+  {
+    "question": "The keyword `instanceof` is used to check for what?",
+    "type": "text",
+    "answer": "Object type",
+    "hint": "The name of the operator literally asks, 'is this an instance of...?'"
+  },
+  {
+    "question": "What does the compiler provide if you don't define any constructor for a class?",
+    "type": "mcq",
+    "options": {
+      "A": "A private constructor",
+      "B": "A compilation error",
+      "C": "A default, no-argument constructor",
+      "D": "Nothing"
+    },
+    "answer": "C",
+    "hint": "The Java compiler tries to be helpful and provides a basic one for you."
+  }
+]

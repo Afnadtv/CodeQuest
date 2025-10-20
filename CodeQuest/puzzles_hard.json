@@ -1,0 +1,92 @@
+[
+  {
+    "question": "The degree to which one module relies on another is known as what?",
+    "type": "text",
+    "answer": "Coupling",
+    "hint": "In good software design, you want this to be 'low'."
+  },
+  {
+    "question": "What is the primary problem that `default` methods in interfaces (Java 8) solve?",
+    "type": "mcq",
+    "options": {
+      "A": "They allow interfaces to have variables",
+      "B": "They add new methods without breaking existing classes",
+      "C": "They allow multiple inheritance of state",
+      "D": "They make interfaces act like abstract classes"
+    },
+    "answer": "B",
+    "hint": "Think about evolving an interface used by thousands of developers."
+  },
+  {
+    "question": "What design principle favors using object composition over class inheritance?",
+    "type": "text",
+    "answer": "Composition over inheritance",
+    "hint": "The name of the principle is in the question itself!"
+  },
+  {
+    "question": "An interface with no methods, used to provide runtime type information, is called what?",
+    "type": "mcq",
+    "options": {
+      "A": "Functional Interface",
+      "B": "Abstract Interface",
+      "C": "Utility Interface",
+      "D": "Marker Interface"
+    },
+    "answer": "D",
+    "hint": "This type of interface is used to 'mark' a class as having a specific property (e.g., Serializable)."
+  },
+  {
+    "question": "What does the 'S' in the S.O.L.I.D. design principles stand for?",
+    "type": "text",
+    "answer": "Single Responsibility Principle",
+    "hint": "A class should have only one reason to change."
+  },
+  {
+    "question": "What is a 'covariant return type'?",
+    "type": "mcq",
+    "options": {
+      "A": "A method that can return different types",
+      "B": "An overriding method can return a subtype of the original",
+      "C": "A method that returns void",
+      "D": "A method with a more restrictive access modifier"
+    },
+    "answer": "B",
+    "hint": "This feature allows a subclass method's return type to vary along with the class."
+  },
+  {
+    "question": "Why is it crucial to override `hashCode()` when you override `equals()`?",
+    "type": "text",
+    "answer": "For hash-based collections",
+    "hint": "Collections like HashMap and HashSet rely on this contract to work correctly."
+  },
+  {
+    "question": "If a class is declared with the `final` keyword, what does that mean?",
+    "type": "mcq",
+    "options": {
+      "A": "Its methods are all final",
+      "B": "It cannot be instantiated",
+      "C": "It cannot be subclassed",
+      "D": "It can only have final variables"
+    },
+    "answer": "C",
+    "hint": "This keyword signifies the 'end of the line' for inheritance."
+  },
+  {
+    "question": "Method overriding is an example of which type of binding?",
+    "type": "text",
+    "answer": "Dynamic binding",
+    "hint": "The decision of which method to call is made at runtime, not compile time."
+  },
+  {
+    "question": "The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its...?",
+    "type": "mcq",
+    "options": {
+      "A": "Interfaces",
+      "B": "Subclasses",
+      "C": "Parent classes",
+      "D": "Abstract classes"
+    },
+    "answer": "B",
+    "hint": "This SOLID principle defines what it means to be a correct subtype."
+  }
+]
